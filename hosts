@@ -42,3 +42,6 @@
 
 ## db-[99:101]-node.example.com
 
+#### Stemcell specific details follows ####
+[examples]
+10.200.3.26
