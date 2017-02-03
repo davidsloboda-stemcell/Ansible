@@ -45,3 +45,9 @@
 #### Stemcell specific details follows ####
 [examples]
 10.200.3.26
+
+[centos7]
+192.168.114.153
+
+[centos6]
+192.168.100.87
