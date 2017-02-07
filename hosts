@@ -50,7 +50,7 @@
 [centos6]
 192.168.100.87
 
-[all-centos]
+[all-centos:children]
 centos6
 centos7
 
