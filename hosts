@@ -43,6 +43,9 @@
 ## db-[99:101]-node.example.com
 
 #### Stemcell specific details follows ####
+[test]
+10.200.3.225
+
 [centos7]
 192.168.114.153
 10.200.3.26
