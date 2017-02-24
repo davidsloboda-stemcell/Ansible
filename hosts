@@ -43,6 +43,9 @@
 ## db-[99:101]-node.example.com
 
 #### Stemcell specific details follows ####
+[sgc-aws1-bioseq1]
+10.200.3.130
+
 [test]
 10.200.3.225
 

@@ -1,0 +1,8 @@
+---
+
+# hosts still have to be defined in host inventory e.g. ./hosts
+# call as follows
+# ansible-playbook play_check_mk.yml --extra-vars "hosts=sgc-aws1-bioseq1"
+- hosts: '{{ hosts }}'
+  roles:
+    - role: check_mk

@@ -6,6 +6,7 @@
   yum: name=xinetd state=latest update_cache=yes
 
 - name: Install check_mk agent
-  yum: name=/tmp/check-mk-agent-1.2.6p16-1.noarch.rpm state=present register=result
+  yum: name=/tmp/check-mk-agent-1.2.6p16-1.noarch.rpm state=present
+  register: result
   notify:
     - restart xinetd
